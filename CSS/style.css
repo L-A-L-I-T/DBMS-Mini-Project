@@ -1,0 +1,64 @@
+header{
+    background-color: #a1eafb;
+}
+footer{
+    height: 10vh;
+    margin-top: 10vh;
+    background-color:#a1eafb;
+    text-align: center;
+}
+.navbar-color{
+    background-color:#a1eafb;
+}
+.footer-text{
+    padding-top: 30px;
+}
+.body-container{
+    padding-top: 10px;
+}
+.submit-Button{
+    margin-top: 10px;
+}
+.cover-container{
+    position : relative; 
+}
+.cover-text{
+    position : absolute;
+    width: 30%;
+    top : 23%;
+    margin-left: 2%;
+    font-family: 'Lobster', cursive;
+    color: white;
+}
+.cover-icon{
+    margin-left: 5%;
+    color : white;
+    width : 50px;
+
+
+}
+.location-container{
+    
+margin-left: auto;
+margin-right: auto;
+margin-top: 5%; 
+}
+.location-container>div{
+    display : flex;
+    justify-content: center;
+}
+.location-container>div>button{
+    background-color: #a1eafb;
+}
+.location-container>div>select{
+    width: 40%;
+}
+
+.find-button{
+    margin-left: 3%;
+}
+.card-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
