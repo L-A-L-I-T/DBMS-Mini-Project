@@ -1,7 +1,15 @@
+body{
+     background-image: url("../Images/background-image.jpeg");
+     background-repeat: no-repeat;
+     background-size: 100%;
+     background-attachment: fixed;
+}
 header{
     background-color: #a1eafb;
 }
 footer{
+    position: absolute;
+    bottom: 0px;
     height: 10vh;
     margin-top: 10vh;
     background-color:#a1eafb;
@@ -70,4 +78,27 @@ margin-top: 5%;
     width:auto;
     min-height: 35vh;
     max-height : 80vh;
+}
+.form-container{
+    margin-top: 100px;
+    display : flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.agency-info{
+    margin-top: 150px;
+    text-align: center;
+}
+.input-area-container{
+    width: 60%;
+    min-height: 60vh;
+    box-shadow: 0 0 5px 0 ;
+    border-radius: 1rem;
+    background: inherit; 
+    -webkit-backdrop-filter: blur(6px);
+    -moz-backdrop-filter: blur(6px);
+    -o-backdrop-filter: blur(6px);
+    -ms-backdrop-filter: blur(6px);
+    backdrop-filter: blur(5px);
 }
